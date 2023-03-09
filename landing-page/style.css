@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    color: #e5e7eb;
+    font-size: 10px;
+    gap: 20px;
+    font-family: sans-serif;
+    margin-right: 130px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
