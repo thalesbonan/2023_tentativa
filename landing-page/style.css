@@ -169,3 +169,114 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .signature {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 450px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 120px;
+    background-color:#3882f6 ;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+    border-radius: 10px;
+}
+
+.action .container .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 80px;
+}
+
+.action .container .button {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: baseline;
+    margin-right: 80px;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color:#3882f6 ;
+    color: white;
+    font-weight: 800;
+}
+
+.action .container .text .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.action .container .text .text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
